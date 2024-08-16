@@ -47,6 +47,11 @@ Click on the `Intruder` tab.
 Select the Clear `§` button. In the password field place two `§` inside the quotes. <br>
 ![](./screenshots/10.png) <br>
 For payload, we need to install this first. <br>
+Email should be: <br>
+```
+admin@juice-sh.op
+```
+Install `seclists` for wordlists. <br>
 ```bash
 apt-get install seclists
 ```
@@ -64,6 +69,14 @@ Waiting until the attack finished. <br>
 You can see the progress beneath. <br>
 ![](./screenshots/15.png) <br>
 
+Find the password. <br>
+![](./screenshots/17.png) <br>
+
+Once you found the password, login and you will get the flag. <br>
+![](./screenshots/18.png) <br>
+```
+c2110d06dc6f81c67cd8099ff0ba601241f1ac0e
+```
 
 ---
 
