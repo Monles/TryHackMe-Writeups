@@ -195,11 +195,6 @@ http://<YOUR_MACHINE_IP>/assets/public/images/uploads/%F0%9F%98%BC-%23zatschi-%2
 
 
 
-
-
-
-
-
 ---
 
 # Reference
