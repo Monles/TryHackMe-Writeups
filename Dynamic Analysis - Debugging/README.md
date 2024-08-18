@@ -39,10 +39,11 @@ Kernel-level debuggers are a step even lower than assembly-level debuggers. As t
 Now let's move to the next task to learn how to debug malware.
 
 # [Task 5] Debugging in Practice
+![](./screenshots/01.png) <br>
 Since `TLS callbacks` are often used as an anti-reverse engineering technique, we should be careful when navigating this `TLS callback`. Therefore, it will be prudent to single-step each instruction while we are in the callback.  We can do that by clicking the step-into option we discussed above. After stepping into every instruction, we see the EIP moving to the next instruction, and the values in the registers and stack change accordingly. After stepping in a few instructions, we reach a conditional jump instruction. In the pane below the disassembly, we can see that the debugger tells us that the jump is not taken. The registers pane shows that the ZF is set, so the jump is not taken. 
 
-![](./screenshots/01.png) <br>
 ![](./screenshots/02.png) <br>
+
 
 
 
