@@ -141,7 +141,6 @@ rpcrt4.dll
 
 ## Q2. What does this `dll` do?
 
-
 ```
 Remote Procedure Call Runtime
 ```
